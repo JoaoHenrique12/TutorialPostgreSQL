@@ -28,9 +28,7 @@ Na pasta do projeto execute o comando:
 $ docker-compose up -d
 ```
 
-Se tudo deu certo até aqui então será possível listar os containers
-em atividade com o comando, que retornará uma imagem semelhante a
-esta:
+Liste os containers em atividade com o comando:
 ```
 $ docker ps
 ```

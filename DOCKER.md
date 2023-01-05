@@ -16,7 +16,7 @@ super usuário.
 
 ```
 $ sudo usermod -aG docker ${USER}
-$ su -${USER}
+$ su - ${USER}
 ```
 Reinicie sua máquina, se tudo tiver ocorrido como esperado será 
 possível executar o container.

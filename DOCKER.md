@@ -1,6 +1,6 @@
 # Mini tutorial de docker
 
-## Instalando o Dockerzitos
+## Instalando o Docker
 
 ### Instalando via APT
 

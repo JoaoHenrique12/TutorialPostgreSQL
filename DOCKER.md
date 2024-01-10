@@ -10,15 +10,14 @@ $ sudo apt install docker-compose
 ```
 
 Adicionando o seu usuário ao grupo do Docker. Por que executar este
-comando ? Caso este passo não seja feito então toda vez que você
-for executar algum comando do docker será necessária permissão de
-super usuário.
+comando ? Caso isto não seja feito você sempre terá que executar os comandos:
+docker e docker-compose com permissão de super usuário.
 
 ```
 $ sudo usermod -aG docker ${USER}
 $ su - ${USER}
 ```
-Reinicie sua máquina, se tudo tiver ocorrido como esperado será 
+Reinicie sua máquina. Se tudo tiver ocorrido como esperado será 
 possível executar o container.
 
 ## Rodando o container
